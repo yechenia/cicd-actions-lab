@@ -1,0 +1,8 @@
+# 测试与编译产生的二进制
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
