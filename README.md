@@ -25,7 +25,7 @@ go test -v ./...
 
 每次运行依次做三件事：
 
-1. 用 `actions/checkout@v4` 检出代码
+1. 用 `actions/checkout@v5` 检出代码
 2. 用 `actions/setup-go@v7` 读取 `go.mod` 里的 Go 版本并安装，同时缓存模块和构建结果
 3. 执行 `go test ./...`
 
